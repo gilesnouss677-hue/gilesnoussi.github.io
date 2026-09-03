@@ -614,17 +614,17 @@
 
             <!-- FORMULAIRE -->
 
-            <form class="contact-form">
+            <form class="contact-form" action="https://formspree.io/f/xljenaaq" method="POST"">
               <div class="form-row">
                 <input type="text" placeholder="Nom complet" required />
 
-                <input type="email" placeholder="Email" required />
+                <input type="email"  placeholder="Email" required />
               </div>
 
-              <input type="text" placeholder="Sujet" required />
+              <input type="text" name="sujet" placeholder="Sujet" required />
 
               <textarea
-                placeholder="Votre message"
+                placeholder="Votre message" name="message"
                 rows="6"
                 required
               ></textarea>
